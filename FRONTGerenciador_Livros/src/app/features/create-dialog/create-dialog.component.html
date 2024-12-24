@@ -1,0 +1,36 @@
+<h1 mat-dialog-title>Editar Livro</h1>
+
+<div mat-dialog-content>
+  <form [formGroup]="livroForm" (ngSubmit)="onSubmit()" class="form-container">
+
+    <div class="form-row">
+      <mat-form-field appearance="outline" class="form-field">
+        <mat-label>Título</mat-label>
+        <input matInput formControlName="titulo" placeholder="Digite o Título">
+      </mat-form-field>
+
+      <mat-form-field appearance="outline" class="form-field">
+        <mat-label>Autor</mat-label>
+        <input matInput formControlName="autor" placeholder="Digite o Autor">
+      </mat-form-field>
+    </div>
+
+    <div class="form-row">
+      <mat-form-field appearance="outline" class="form-field">
+        <mat-label>Gênero</mat-label>
+        <input matInput formControlName="genero" placeholder="Digite o Gênero">
+      </mat-form-field>
+
+      <mat-form-field appearance="outline" class="form-field">
+        <mat-label>Ano</mat-label>
+        <input matInput formControlName="ano" placeholder="Digite o Ano">
+      </mat-form-field>
+    </div>
+
+  </form>
+</div>
+
+<div mat-dialog-actions align="end">
+  <button mat-button (click)="onCancel()">Cancelar</button>
+  <button mat-raised-button color="primary" (click)="onSubmit()">Salvar</button>
+</div>

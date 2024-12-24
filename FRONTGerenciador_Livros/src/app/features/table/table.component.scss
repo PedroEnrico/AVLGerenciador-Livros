@@ -1,0 +1,15 @@
+table {
+    width: 100%;
+    margin-top: 15px; /* Espaçamento mais uniforme */
+}
+
+.acoes {
+    cursor: pointer; /* Altera o cursor para ponteiro ao passar sobre as linhas */
+}
+
+.add-button-container {
+    display: flex;
+    justify-content: flex-end; /* Alinha o botão à direita */
+    padding: 10px;
+  }
+  

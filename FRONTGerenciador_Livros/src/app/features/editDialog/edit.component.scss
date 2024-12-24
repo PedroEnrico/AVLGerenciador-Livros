@@ -1,0 +1,19 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* Espaçamento entre as linhas */
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px; /* Espaçamento entre os campos */
+}
+
+.form-field {
+  flex: 1; /* Faz os campos se ajustarem igualmente no espaço disponível */
+}
+
+mat-label {
+  color: #ffffff;
+}
