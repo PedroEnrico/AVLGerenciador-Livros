@@ -7,21 +7,17 @@ Sistema de gerenciamento de livros desenvolvido com .NET 6 (Backend) e React (Fr
 ### Backend
 - .NET 6
 - Entity Framework Core
-- SQL Server
+- InMemoryDatabase
 - Swagger
 - AutoMapper
 
 ### Frontend
-- React
-- React Router
-- Axios
-- Tailwind CSS
+- Angular
 
 ## 📋 Pré-requisitos
 
 - .NET 6 SDK
 - Node.js (versão 14 ou superior)
-- SQL Server
 - Visual Studio 2022 ou VS Code
 - npm ou yarn
 
