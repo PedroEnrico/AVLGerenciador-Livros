@@ -60,20 +60,14 @@ npm install
 # ou
 yarn install
 ```
-
-3. Configure a URL da API no arquivo de ambiente (.env)
-```env
-REACT_APP_API_URL=https://localhost:7000
-```
-
-4. Execute o projeto
+3. Execute o projeto
 ```bash
 npm start
 # ou
 yarn start
 ```
 
-O frontend estará rodando em `http://localhost:3000`
+O frontend estará rodando em `http://localhost:4200`
 
 ## 🌐 Endpoints da API
 
